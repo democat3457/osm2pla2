@@ -33,7 +33,7 @@ class Pla2ObjectCollection:
                 "tags": o.tags,
                 "layer": o.layer,
                 "type": o.type,
-                "nodes": [n.tup for n in o.nodes]
+                "nodes": [list(map(round, n.tup)) for n in o.nodes]
             }
             for o in self._collection
         ], fp, indent=2)
