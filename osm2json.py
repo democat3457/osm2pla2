@@ -118,7 +118,7 @@ for o in osmium.FileProcessor(osm_file, osmium.osm.NODE | osmium.osm.WAY)\
                 "service": 5,
             }
             highway_level = HIGHWAY_LEVELS.get(o.tags.get("highway"), 5)
-            hwy_level_offset = 1
+            hwy_level_offset = -1
             highway_level = max(0, min(4, highway_level + hwy_level_offset))
             PLA2_HIGHWAYS = {
                 0: "localHighway",
