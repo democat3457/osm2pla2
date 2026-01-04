@@ -5,7 +5,7 @@ Using JOSM to edit maps for the custom file type, PLA2, used in Minecart Rapid T
 ## JOSM Preparation
 
 1. Open JOSM, but do not download any data.
-2. Go to JOSM settings, go to Map and select the UTM projection. Any zone will do, I've chosen zone 15.
+2. Go to JOSM settings, go to Map and select the UTM projection. Any zone will do, I've chosen zone 15N.
 3. In the Plugins tab on the settings, download the PicLayer plugin to be able to import Dynmap pictures of the city.
 4. Import photos of your city into the area of JOSM that is the most unwarped.
 5. Scale the city photos down such that they are approximately scaled to between 0.8 and 2 meters per block of Dynmap. <insert guide>
